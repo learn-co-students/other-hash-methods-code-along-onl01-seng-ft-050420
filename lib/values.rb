@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values.flatten #flatten makes all the keys come together to just return an array list complete
 end
